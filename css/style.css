@@ -1,0 +1,93 @@
+@font-face {
+  font-family: 'Lato-Requler';
+  src: url('Lato-Reguler.ttf');
+}
+
+@font-face {
+  font-family: 'Lato-Italic';
+  src: url('Lato-Italic.ttf');
+}
+
+@font-face {
+  font-family: 'Lato-Bold';
+  src: url('Lato-Bold.ttf');
+}
+
+body{
+  font-family: 'Lato-Reguler';
+  background-color: lightblue;
+}
+
+#header{
+  text-align: center;
+  background-color: darkblue;
+}
+
+h1.header-text{
+  display: inline-block;
+  color: white;
+  font-size: 32px;
+  padding-top: 20px;
+}
+
+img.ifest-logo{
+  display: inline-block;
+  width: 50px;
+}
+
+#menu{
+  z-index: 1;
+  top:0px;
+  width:100%;
+  background-color: #2980b9;
+  padding-top: 30px;
+  transition:
+}
+
+img.i2c-logo{
+  width: 50px;
+}
+
+nav.navigation{
+  float: right;
+}
+
+li.nav{
+  display:inline-block;
+}
+
+span.text-link{
+  color: white;
+  font-size: 12px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.menu-link{
+  text-decoration: none;
+  border: 1px solid white;
+  display: block;
+}
+
+#theme{
+  padding-top: 150px;
+  padding-bottom: 150px;
+  text-align: center;
+}
+
+.theme-logo{
+  width: 280px;
+}
+
+.theme-title{
+  color: white;
+}
+
+#about{
+  background-color: #C5EFF7;
+    padding-top: 20px;
+}
+
+.about-title{
+  color: white;
+}
