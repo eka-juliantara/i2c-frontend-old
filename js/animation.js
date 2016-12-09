@@ -15,5 +15,13 @@ $(document).ready(function() {
       $("#theme").css({'padding-top':'150px'});
     }
   });
-
+  $("#film-pendek").click(function(){
+    $("div#film-pendek").css({'display':'block'});
+  });
+  $("#atma-trailer").click(function(){
+    $("div#atma-trailer").css({'display':'block'});
+  });
+  $(".pop-up").click(function(){
+    $(".pop-up").css({'display':'none'});
+  });
 });
