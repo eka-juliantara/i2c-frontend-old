@@ -257,14 +257,25 @@ section{
 }
 
 .flex-direction-nav a  {
-    line-height: 40px;
+  line-height: 40px;
 }
 
 .slider-content{
-    margin-bottom: 170px;
-    margin-left: 525px;
-    position: absolute;
-    z-index: 1;
-    bottom: 0px;
-    color: #000;
+  margin-bottom: 170px;
+  margin-left: 525px;
+  position: absolute;
+  z-index: 1;
+  bottom: 0px;
+  color: #000;
+}
+
+.registration-btn{
+  text-transform: none;
+  font-size: 50px;
+  background-color: #F9BF3B;
+  border: 3px solid #EB9532;
+  margin-top: 20px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  box-sizing: content-box;
 }
