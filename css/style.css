@@ -240,31 +240,3 @@ section{
 .cd-timeline-block:nth-child(even) .cd-timeline-content .cd-date {
   right: 160%;
 }
-
-#winner-profile{
-  background-color: #4183D7;
-}
-
-#winner-profile .flexslider{
-  background: transparent;
-  border: 0px;
-  padding-left: 50px;
-}
-
-#winner-profile img{
-  width: 500px;
-  margin: 0px;
-}
-
-.flex-direction-nav a  {
-    line-height: 40px;
-}
-
-.slider-content{
-    margin-bottom: 170px;
-    margin-left: 525px;
-    position: absolute;
-    z-index: 1;
-    bottom: 0px;
-    color: #000;
-}
