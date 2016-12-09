@@ -21,7 +21,14 @@ $(document).ready(function() {
   $("#atma-trailer").click(function(){
     $("div#atma-trailer").css({'display':'block'});
   });
-  $(".pop-up").click(function(){
-    $(".pop-up").css({'display':'none'});
+  $("#registration-form").click(function(){
+    $("div#registration-form").css({'display':'block'});
+  });
+
+  $( "body" ).keydown(function(e) {
+      if(e.which == 27)
+      {
+        $(".pop-up").css({'display':'none'});
+      }
   });
 });
