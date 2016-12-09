@@ -18,19 +18,22 @@ body{
   background-color: lightblue;
 }
 
-#header{
+section{
   text-align: center;
+}
+
+#header{
   background-color: darkblue;
 }
 
-h1.header-text{
+.header-text{
   display: inline-block;
   color: white;
   font-size: 32px;
   padding-top: 20px;
 }
 
-img.ifest-logo{
+.ifest-logo{
   display: inline-block;
   width: 50px;
 }
@@ -44,19 +47,19 @@ img.ifest-logo{
   transition:
 }
 
-img.i2c-logo{
+.i2c-logo{
   width: 50px;
 }
 
-nav.navigation{
+.navigation{
   float: right;
 }
 
-li.nav{
+.nav{
   display:inline-block;
 }
 
-span.text-link{
+.text-link{
   color: white;
   font-size: 12px;
   margin-left: 10px;
@@ -72,7 +75,6 @@ span.text-link{
 #theme{
   padding-top: 150px;
   padding-bottom: 150px;
-  text-align: center;
 }
 
 .theme-logo{
@@ -85,9 +87,101 @@ span.text-link{
 
 #about{
   background-color: #C5EFF7;
-    padding-top: 20px;
+  padding-top: 20px;
 }
 
 .about-title{
   color: white;
+}
+
+.content-title{
+  text-align: center;
+}
+
+.content-text{
+  text-indent: 50px;
+  text-align: justify;
+}
+
+.circle{
+  border-radius: 50%;
+  font-weight:lighter;
+  border: 5px solid
+}
+
+.big{
+  width: 292px;
+  height:292px;
+}
+
+.small{
+  margin: auto;
+  width: 220px;
+  height:220px;
+}
+
+.category-img{
+  margin-top: 35px;
+  width: 130px;
+}
+
+.gold{
+  color: gold;
+  border: 5px solid gold;
+}
+
+.silver{
+  color: silver;
+  border: 5px solid silver;
+}
+
+.bronze{
+  color: #E87E04;
+  border: 5px solid #E87E04;
+}
+
+.trophy{
+  margin-top: 30px;
+  width: 150px;
+}
+
+#winner{
+  background-color: #22313F;
+}
+
+#category{
+  background-color: #446CB3;
+}
+
+#category p{
+  padding-top: 30px;
+  color: white;
+}
+
+.category-btn{
+  background-color: #F9BF3B;
+  border: 3px solid #EB9532;
+}
+
+.pop-up{
+    display:none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+
+.pop-up > .content{
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    height: 70%;
 }
