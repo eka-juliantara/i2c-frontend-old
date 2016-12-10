@@ -1,16 +1,16 @@
 @font-face {
   font-family: 'Lato-Requler';
-  src: url('Lato-Reguler.ttf');
+  src: url('../font/Lato-Reguler.ttf');
 }
 
 @font-face {
   font-family: 'Lato-Italic';
-  src: url('Lato-Italic.ttf');
+  src: url('../font/Lato-Italic.ttf');
 }
 
 @font-face {
   font-family: 'Lato-Bold';
-  src: url('Lato-Bold.ttf');
+  src: url('../font/Lato-Bold.ttf');
 }
 
 body{
@@ -166,7 +166,7 @@ section{
 .pop-up{
     display:none;
     position: fixed;
-    z-index: 1;
+    z-index: 10;
     padding-top: 100px;
     left: 0;
     top: 0;
@@ -283,4 +283,23 @@ section{
 #category,#winner,#winner-profile,#about{
   padding-top: 25px;
   padding-bottom: 20px;
+}
+
+ol>li{
+  text-align: left;
+}
+
+.form-row>label{
+  text-align: left;
+}
+
+.form-box{
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.form-row>input{
+  width:100%;
+  margin-right: 150px;
 }
