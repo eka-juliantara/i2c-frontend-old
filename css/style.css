@@ -239,9 +239,17 @@ section{
   box-sizing: content-box;
 }
 
-#category,#winner,#winner-profile,#about,#registration{
+#category,#winner,#winner-profile,#about,#footer{
   padding-top: 25px;
   padding-bottom: 20px;
+}
+
+#registration{
+  padding-top: 250px;
+  padding-bottom: 250px;
+  background-image: url('../main-background.png');
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 ol>li{
@@ -261,4 +269,12 @@ ol>li{
 .form-row>input{
   width:100%;
   margin-right: 150px;
+}
+
+.cd-timeline-content>p{
+  font-size: 100%;
+}
+
+#about p{
+  margin-top: 70px;
 }
