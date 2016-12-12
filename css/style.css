@@ -210,22 +210,14 @@ section{
   padding-left: 50px;
 }
 
-#winner-profile img{
-  width: 500px;
-  margin: 0px;
-}
-
-.flex-direction-nav a  {
-  line-height: 40px;
-}
-
 .slider-content{
-  margin-bottom: 170px;
-  margin-left: 525px;
-  position: absolute;
-  z-index: 1;
-  bottom: 0px;
-  color: #000;
+  text-align: justify;
+  color: white;
+  font-size: 20px;
+}
+
+.flex-direction-nav a{
+  line-height: 40px;
 }
 
 .registration-btn{
@@ -245,8 +237,8 @@ section{
 }
 
 #registration{
-  padding-top: 250px;
-  padding-bottom: 250px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   background-image: url('../main-background.png');
   background-size: cover;
   background-attachment: fixed;
