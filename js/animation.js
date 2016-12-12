@@ -39,4 +39,10 @@ $(document).ready(function() {
     'speedOut' : 200,
     'overlayShow' : false
   });
+
+  $(".flexslider").hover(function(){
+    $(".flexslider").flexslider("pause");
+  },function(){
+    $(".flexslider").flexslider("play");
+  });
 });
