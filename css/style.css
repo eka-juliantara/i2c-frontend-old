@@ -41,7 +41,7 @@ section{
 }
 
 /*set padding for sections*/
-#category,#winner,#winner-profile,#about,#footer{
+#category,#winner,#winner-profile,#about,#footer,#rule{
   padding-top: 25px;
   padding-bottom: 20px;
 }
@@ -106,6 +106,7 @@ section{
   padding-bottom: 150px;
   background-image: url('../main-background.png');
   background-size: cover;
+  background-position: center;
 }
 
 .theme-logo{
@@ -254,6 +255,7 @@ ol>li{
   background-image: url('../main-background.png');
   background-size: cover;
   background-attachment: fixed;
+  background-position: center;
 }
 
 .registration-btn{
@@ -295,6 +297,11 @@ ol>li{
 
 .cd-timeline-content .cd-date {
   left: 106%;
+}
+
+/*css for rule section */
+#rule{
+  background-color: #2C3E50;
 }
 
 /*css for footer */
