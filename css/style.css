@@ -46,6 +46,11 @@ section{
   padding-bottom: 20px;
 }
 
+/*css for title section font*/
+.section-title,.content-title,.theme-title{
+  font-family: 'BebasNeue-Reguler';
+}
+
 /*css for header ifest */
 .header-text{
   font-family: 'BebasNeue-Reguler';
