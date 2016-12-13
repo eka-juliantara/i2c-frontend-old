@@ -16,7 +16,7 @@
 
 @font-face{
   font-family: 'BebasNeue-Reguler';
-  src: url('../font/BebasNeue Regular.ttf');
+  src: url('../font/BebasNeue-Regular.ttf');
 }
 
 @font-face{
@@ -41,14 +41,15 @@ section{
 }
 
 /*set padding for sections*/
-#category,#winner,#winner-profile,#about,#footer,#rule{
-  padding-top: 25px;
-  padding-bottom: 20px;
+#category,#winner,#winner-profile,#about,#footer,#rule,#timeline{
+  padding-top: 40px;
+  padding-bottom: 50px;
 }
 
 /*css for title section font*/
 .section-title,.content-title,.theme-title{
   font-family: 'BebasNeue-Reguler';
+  font-weight: normal;
 }
 
 /*css for header ifest */
@@ -58,6 +59,8 @@ section{
   color: white;
   font-size: 32px;
   padding-top: 20px;
+  font-weight: normal;
+  margin-left: 10px;
 }
 
 .ifest-logo{
@@ -71,8 +74,12 @@ section{
   top:0px;
   width:100%;
   background-color: #2980b9;
-  padding-top: 30px;
-  transition:
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#menu .logo{
+  float: left;
 }
 
 .i2c-logo{
@@ -84,29 +91,34 @@ section{
 }
 
 .nav{
+  margin-bottom: 0px;
   display:inline-block;
 }
 
 .text-link{
   color: white;
   font-size: 12px;
-  margin-left: 10px;
-  margin-right: 10px;
 }
 
 .menu-link{
+  margin-left: 10px;
   text-decoration: none;
-  border: 1px solid white;
   display: block;
+}
+
+.navigation>ul{
+  padding-top: 8px;
+  margin-bottom: 0px;
 }
 
 /*css for theme section */
 #theme{
-  padding-top: 150px;
+  padding-top: 80px;
   padding-bottom: 150px;
   background-image: url('../main-background.png');
   background-size: cover;
   background-position: center;
+  background-position-y: -150px;
 }
 
 .theme-logo{
@@ -132,7 +144,7 @@ section{
 }
 
 .content-box{
-  padding-top: 85px;
+  padding-top: 10px;
 }
 
 .content-text{
@@ -189,6 +201,10 @@ section{
 }
 
 #category p{
+  color: white;
+}
+
+#category h4{
   padding-top: 30px;
   color: white;
 }
@@ -201,7 +217,7 @@ section{
 
 .category-btn{
   background-color: #F9BF3B;
-  border: 3px solid #EB9532;
+  border: 2px solid #EB9532;
 }
 
 .pop-up{
@@ -239,13 +255,17 @@ ol>li{
 #winner-profile .flexslider{
   background: transparent;
   border: 0px;
-  padding-left: 50px;
+}
+
+.flexslider h4{
+  color: white;
+  text-align: left;
 }
 
 .slider-content{
   text-align: justify;
   color: white;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 /*css for registration section */
@@ -259,14 +279,15 @@ ol>li{
 }
 
 .registration-btn{
-  text-transform: none;
-  font-size: 50px;
+  text-transform: uppercase;
+  font-size: 36px;
   background-color: #F9BF3B;
-  border: 3px solid #EB9532;
-  margin-top: 20px;
+  border: 2px solid #EB9532;
+  margin: 0px;
   padding-top: 8px;
   padding-bottom: 8px;
   box-sizing: content-box;
+  font-weight: normal;
 }
 
 .form-row>label{
@@ -285,6 +306,13 @@ ol>li{
 }
 
 /*css for timeline section */
+#timeline{
+  padding-bottom: 0px;
+}
+#timeline h1{
+  color: black;
+}
+
 .cd-timeline-content>p,.cd-timeline-content>.cd-read-more,.cd-timeline-content>.cd-date,.cd-timeline-content>h2{
   font-size: 100%;
 }
@@ -292,7 +320,8 @@ ol>li{
 .cd-timeline-content>.cd-date{
   font-weight: bolder;
   font-size: 30px;
-  color: white;
+  color: black;
+  padding-top: 0px;
 }
 
 .cd-timeline-content .cd-date {
@@ -312,4 +341,12 @@ ol>li{
 /*css for flexslider */
 .flex-direction-nav a{
   line-height: 40px;
+}
+
+.flexslider li{
+  margin-bottom: 0px;
+}
+
+button{
+  height: auto;
 }

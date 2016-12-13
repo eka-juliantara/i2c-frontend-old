@@ -3,16 +3,16 @@ $(document).ready(function() {
     animation: "slide"
   });
   $(window).scroll(function(){
-    var shrinkOn=$("#header").height(),paddingAdd=$("#menu").height();
-    if($(window).scrollTop()>shrinkOn)
+    var shrinkOn=$("#header").height(),paddingAdd=$("#header").height();
+    if($(window).scrollTop()>shrinkOn+12)
     {
       $("#menu").css({'position':'fixed'});
-      $("#theme").css({'padding-top':paddingAdd+150+'px'});
+      $("#theme").css({'margin-top':paddingAdd+'px'});
     }
     else
     {
       $("#menu").css({'position':'static'});
-      $("#theme").css({'padding-top':'150px'});
+      $("#theme").css({'margin-top':'0px'});
     }
   });
   $("#film-pendek").click(function(){
