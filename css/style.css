@@ -52,6 +52,10 @@ section{
   font-weight: normal;
 }
 
+#about,#form-header,#form{
+  color: black;
+}
+
 /*css for header ifest */
 .header-text{
   font-family: 'BebasNeue-Reguler';
