@@ -15,11 +15,13 @@ $(document).ready(function() {
     {
       $("#menu").css({'position':'fixed'});
       $("#theme").css({'margin-top':paddingAdd+'px'});
+      $("#form-header").css({'margin-top':paddingAdd+'px'});
     }
     else
     {
       $("#menu").css({'position':'static'});
       $("#theme").css({'margin-top':'0px'});
+      $("#form-header").css({'margin-top':'0px'});
     }
   });
   $("#ide-bisnis").click(function(){
@@ -44,7 +46,21 @@ $(document).ready(function() {
     'overlayShow' : false
   });
 
-  window.sr = ScrollReveal().reveal('#theme .container,#about .container,#category .container,#rule .container,#winner .container,#timeline,#registration .container,#footer .container,.section-title,.content-title,#form,#form-header',{ reset: true });
+  window.sr = ScrollReveal().reveal('#theme .container,#about .container,#category .container,#rule .container,#winner .container,#timeline,#registration .container,#footer .container,.section-title,.content-title,#form',{ reset: true });
+
+  $('a[href^="#"]').on('click',function (e) {
+	    e.preventDefault();
+
+	    var target = this.hash,
+	    $target = $(target);
+      var scrollAmount = $target.offset().top - $("#header").height() + 16;
+	    $('html, body').stop().animate({
+	        'scrollTop': scrollAmount
+	    }, 900, 'swing', function () {
+	        window.location.hash = target;
+	    });
+	});
+
   /*
   $("input:radio").change(function(){
     if($("input.radio-category[value='Ide Bisnis']").is(':checked')){
