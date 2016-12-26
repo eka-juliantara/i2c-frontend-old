@@ -350,3 +350,25 @@ ol>li{
 button{
   height: auto;
 }
+
+/*form-header section*/
+#form-header{
+  font-size: 13px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.breadcrumb-list>li{
+  display: inline-block;
+  list-style:none;
+}
+
+.breadcrumb-list{
+  display: block;
+  float: right;
+}
+
+.form-title{
+  display: block;
+  float: left;
+  font-size: 30px;
+}
