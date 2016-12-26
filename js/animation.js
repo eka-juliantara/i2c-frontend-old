@@ -22,8 +22,8 @@ $(document).ready(function() {
       $("#theme").css({'margin-top':'0px'});
     }
   });
-  $("#film-pendek").click(function(){
-    $("div#film-pendek").css({'display':'block'});
+  $("#ide-bisnis").click(function(){
+    $("div#ide-bisnis").css({'display':'block'});
   });
   $("#atma-trailer").click(function(){
     $("div#atma-trailer").css({'display':'block'});
@@ -45,4 +45,49 @@ $(document).ready(function() {
   });
 
   window.sr = ScrollReveal().reveal('#theme .container,#about .container,#category .container,#rule .container,#winner .container,#timeline,#registration .container,#footer .container,.section-title,.content-title,#form,#form-header',{ reset: true });
+  /*
+  $("input:radio").change(function(){
+    if($("input.radio-category[value='Ide Bisnis']").is(':checked')){
+      $(".atma-trailer-member").css({'display':'none'});
+      $(".ide-bisnis-member").css({'display':'block'});
+    }
+    if($("input.radio-category[value='Atma Trailer']").is(':checked')){
+      $(".atma-trailer-member").css({'display':'block'});
+      $(".ide-bisnis-member").css({'display':'none'});
+    }
+  });
+
+  var count = [1,1];
+  $("button.add-member").click(function(){
+    if($("input.radio-category[value='Ide Bisnis']").is(':checked')){
+      if(count[0] < 5){
+        var row = "<tr><td><input type='text' name='npm' value=''></td><td><input type='text' name='name' value=''></td><td><input type='text' name='phone' value=''></td><td><button type='button' name='button' class='delete-member'>Hapus</button></td></tr>";
+        $(".ide-bisnis-member").append(row);
+        count[0]++;
+      }
+    }
+    if($("input.radio-category[value='Atma Trailer']").is(':checked')){
+      if(count[1] < 5){
+        var row = "<tr><td><input type='text' name='npm' value=''></td><td><input type='text' name='name' value=''></td><td><input type='text' name='phone' value=''></td><td><button type='button' name='button' class='delete-member'>Hapus</button></td></tr>";
+        $(".atma-trailer-member").append(row);
+        count[1]++;
+      }
+    }
+  });
+
+  $(document).on('click','button.delete-member',function(){
+    if($("input.radio-category[value='Ide Bisnis']").is(':checked')){
+      if(count[0] > 1){
+        $(this).closest('tr').remove();
+        count[0]--;
+      }
+    }
+    if($("input.radio-category[value='Atma Trailer']").is(':checked')){
+      if(count[1] > 1){
+        $(this).closest('tr').remove();
+        count[1]--;
+      }
+    }
+  });
+  */
 });
