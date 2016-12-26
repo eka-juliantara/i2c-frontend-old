@@ -52,8 +52,13 @@ section{
   font-weight: normal;
 }
 
-#about,#form-header,#form{
+#about,#form-header,#form,#succes-content{
   color: black;
+}
+
+a{
+  color: #6C7A89;
+  text-decoration: underline;
 }
 
 /*css for header ifest */
@@ -283,6 +288,7 @@ ol>li{
 }
 
 .registration-btn{
+  text-decoration: none;
   color: #555;
   text-transform: uppercase;
   font-size: 36px;
@@ -391,4 +397,10 @@ button{
 
 .term-service{
   margin-left: 50px;
+}
+
+/*css for succes content section*/
+#succes-content{
+  padding-top: 20px;
+  padding-bottom: 200px;
 }
