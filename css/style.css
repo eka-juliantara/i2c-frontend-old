@@ -279,6 +279,7 @@ ol>li{
 }
 
 .registration-btn{
+  color: #555;
   text-transform: uppercase;
   font-size: 36px;
   background-color: #F9BF3B;
@@ -290,19 +291,8 @@ ol>li{
   font-weight: normal;
 }
 
-.form-row>label{
-  text-align: left;
-}
-
-.form-box{
-  width: 30%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.form-row>input{
-  width:100%;
-  margin-right: 150px;
+.registration-btn:hover{
+  color: black;
 }
 
 /*css for timeline section */
@@ -371,4 +361,26 @@ button{
   display: block;
   float: left;
   font-size: 30px;
+}
+
+.form-row>label{
+  text-align: left;
+}
+
+.form-box{
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.form-row>input[type="password"],.form-row>input[type="text"]{
+  width:100%;
+}
+
+.form-row{
+  text-align: left;
+}
+
+.atma-trailer-member{
+  display: none;
 }
