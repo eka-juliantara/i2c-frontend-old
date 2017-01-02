@@ -106,7 +106,7 @@ a{
 
 .text-link{
   color: white;
-  font-size: 12px;
+  font-size: 7px;
 }
 
 .menu-link{
@@ -118,6 +118,89 @@ a{
 .navigation>ul{
   padding-top: 8px;
   margin-bottom: 0px;
+}
+
+.dropdown{
+  display: none;
+}
+
+ul.dropdown-list{
+  display: none;
+}
+
+.dropdown-nav{
+  display: block;
+  float: right;
+}
+
+#dropdown{
+  float: right;
+}
+
+#dropdown>img{
+  width: 25px;
+  margin-top: 12px;
+}
+
+@media screen and (max-width: 749px) {
+  .i2c-logo{
+    width: 75px;
+  }
+  nav{
+    display: none;
+  }
+  .dropdown{
+    display: block;
+  }
+  .dropdown-nav{
+    width: 100%;
+    float: left;
+  }
+  .dropdown-list{
+    float: right;
+  }
+  .text-link{
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 767px,min-width: 749px) {
+  .i2c-logo{
+    width: 35px;
+  }
+  .navigation>ul{
+    padding-top: 0px;
+  }
+}
+
+@media screen and (min-width: 821px) {
+  .text-link{
+    font-size: 8px;
+  }
+}
+
+@media screen and (min-width: 890px) {
+  .text-link{
+    font-size: 9px;
+  }
+}
+
+@media screen and (min-width: 996px) {
+  .text-link{
+    font-size: 10px;
+  }
+}
+
+@media screen and (min-width: 1051px) {
+  .text-link{
+    font-size: 11px;
+  }
+}
+
+@media screen and (min-width: 1139px) {
+  .text-link{
+    font-size: 12px;
+  }
 }
 
 /*css for theme section */
