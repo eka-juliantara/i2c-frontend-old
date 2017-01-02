@@ -58,10 +58,8 @@ $(document).ready(function() {
         scrollAmount-=64;
       }
 	    $('html, body').stop().animate({
-	        'scrollTop': scrollAmount
-	    }, 900, 'swing', function () {
-	        window.location.hash = target;
-	    });
+	        scrollTop: scrollAmount
+	    }, 900);
 	});
 
   /*
