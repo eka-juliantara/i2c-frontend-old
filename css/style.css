@@ -179,6 +179,10 @@ a{
   height:100%;
 }
 
+.four>.big{
+  width: 70%;
+}
+
 .category-img{
   margin-top: 35px;
   width: 130px;
@@ -200,10 +204,13 @@ a{
 }
 
 .trophy{
-  margin-top: 30px;
+  margin-top: 15px;
   width: 150px;
 }
 
+#winner p{
+  padding-top: 30px;
+}
 /*css for category section */
 #category{
   background-color: #446CB3;
