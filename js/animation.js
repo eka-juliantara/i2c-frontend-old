@@ -24,6 +24,7 @@ $(document).ready(function() {
       $("#form-header").css({'margin-top':'0px'});
     }
   });
+
   $("#ide-bisnis").click(function(){
     $("div#ide-bisnis").css({'display':'block'});
   });
@@ -61,6 +62,11 @@ $(document).ready(function() {
 	        scrollTop: scrollAmount
 	    }, 900);
 	});
+
+  $("#dropdown").on('click',function(){
+    $("ul.dropdown-list").slideToggle();
+  });
+
 
   /*
   $("input:radio").change(function(){
